@@ -1,0 +1,35 @@
+.agent-instructions {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .agent-instructions h2 {
+    color: #7289da;
+    margin-bottom: 15px;
+  }
+  
+  .agent-instruction {
+    margin-bottom: 20px;
+  }
+  
+  .agent-instruction h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .agent-instruction textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    background-color: #3a3a3a;
+    border: 1px solid #4a4a4a;
+    border-radius: 5px;
+    color: #ffffff;
+    resize: vertical;
+  }
+  
+  .agent-instruction textarea:focus {
+    outline: none;
+    border-color: #7289da;
+  }

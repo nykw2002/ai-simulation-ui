@@ -1,0 +1,46 @@
+.knowledge-base {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .knowledge-base h2 {
+    color: #7289da;
+    margin-bottom: 15px;
+  }
+  
+  .file-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .file-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .file-item:hover {
+    background-color: #4a4a4a;
+  }
+  
+  .file-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .file-name {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .file-type {
+    font-size: 12px;
+    color: #a0a0a0;
+    margin-left: auto;
+  }

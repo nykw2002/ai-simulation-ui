@@ -1,0 +1,63 @@
+.interactive-graph {
+    background-color: #2c2c2c;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .interactive-graph h3 {
+    color: #7289da;
+    margin-bottom: 15px;
+  }
+  
+  .data-editor {
+    margin-top: 20px;
+  }
+  
+  .data-editor h4 {
+    color: #7289da;
+    margin-bottom: 10px;
+  }
+  
+  .data-item {
+    margin-bottom: 10px;
+  }
+  
+  .data-item span {
+    margin-right: 10px;
+  }
+  
+  .data-item input {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #4a4a4a;
+    background-color: #3a3a3a;
+    color: white;
+  }
+  
+  .add-data-form {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .add-data-form input {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #4a4a4a;
+    background-color: #3a3a3a;
+    color: white;
+  }
+  
+  .add-data-form button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #7289da;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .add-data-form button:hover {
+    background-color: #5a70b8;
+  }

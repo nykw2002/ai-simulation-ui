@@ -1,0 +1,85 @@
+.dropzone {
+    border: 2px dashed #7289da;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .dropzone:hover {
+    background-color: rgba(114, 137, 218, 0.1);
+  }
+  
+  .dropzone.active {
+    border-color: #5a70b8;
+    background-color: rgba(114, 137, 218, 0.2);
+  }
+  
+  .dropzone p {
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .file-list {
+    margin-top: 20px;
+  }
+  
+  .file-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3a3a3a;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .file-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .file-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .file-name {
+    color: #ffffff;
+    margin-right: 10px;
+  }
+  
+  .file-size {
+    color: #a0a0a0;
+    font-size: 12px;
+  }
+  
+  .remove-file {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .remove-file:hover {
+    background-color: #ff3333;
+  }
+  
+  .upload-progress {
+    margin-top: 10px;
+    height: 5px;
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #7289da;
+    transition: width 0.3s ease;
+  }

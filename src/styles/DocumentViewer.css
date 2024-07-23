@@ -1,0 +1,57 @@
+.document-viewer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #2c2c2c;
+    color: white;
+  }
+  
+  .document-list {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    background-color: #1e1e1e;
+  }
+  
+  .document-list button {
+    margin-right: 10px;
+    padding: 8px 15px;
+    background-color: #3a3a3a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .document-list button:hover {
+    background-color: #4a4a4a;
+  }
+  
+  .document-list button.active {
+    background-color: #7289da;
+  }
+  
+  .document-display {
+    flex-grow: 1;
+    overflow: auto;
+    padding: 20px;
+  }
+  
+  .document-preview {
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .document-preview h3 {
+    margin-top: 0;
+    color: #7289da;
+  }
+  
+  .excel-preview {
+    background-color: #2c2c2c;
+    border: 1px solid #4a4a4a;
+    border-radius: 5px;
+    padding: 20px;
+  }

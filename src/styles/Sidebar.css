@@ -1,0 +1,74 @@
+.sidebar {
+    width: 250px;
+    background-color: rgba(44, 44, 44, 0.9);
+    color: #ffffff;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+  }
+  
+  .sidebar h2 {
+    color: #7289da;
+    margin-bottom: 15px;
+  }
+  
+  .sidebar-section {
+    margin-bottom: 20px;
+  }
+  
+  .action-button {
+    background-color: #7289da;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .action-button:hover {
+    background-color: #5a70b8;
+  }
+  
+  .annotations-container {
+    margin-bottom: 20px;
+  }
+  
+  .annotation-box {
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .annotation-box h3 {
+    color: #7289da;
+    margin-bottom: 10px;
+  }
+  
+  .field-annotation {
+    margin-bottom: 5px;
+  }
+  
+  .field-id {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .field-name {
+    color: #a0a0a0;
+  }
+  
+  .field-value {
+    color: #7289da;
+    margin-left: 5px;
+  }
+  
+  .field-not-found {
+    color: #ff6b6b;
+    margin-left: 5px;
+    font-style: italic;
+  }
